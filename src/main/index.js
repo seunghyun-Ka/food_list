@@ -18,41 +18,7 @@ function MainPage() {
 
     return (
         <div>
-            {/* Wrapper */}
             <div id="wrapper">
-
-                {/* Header */}
-                <header id="header">
-                    <div className="inner">
-
-                        {/* Logo */}
-                        <a href="index.html" className="logo">
-                            <span className="symbol"><img src="images/utensils-solid.svg" alt="" /></span><span className="title">search
-                                in area</span>
-                        </a>
-
-                        {/* Nav */}
-                        <nav>
-                            <ul>
-                                <li><a href="#menu">Menu</a></li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                </header>
-
-                {/* Menu */}
-                <nav id="menu">
-                    <h2>Menu</h2>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">Menu1</a></li>
-                        <li><a href="">Menu2</a></li>
-                        <li><a href="">Menu3</a></li>
-                        <li><a href="">Menu4</a></li>
-                    </ul>
-                </nav>
-
                 {/* Main */}
                 <div id="main">
                     <div className="inner">
