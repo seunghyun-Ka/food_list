@@ -62,7 +62,7 @@ function MainPage() {
                                 大切な人、大切な時間を美味しい料理と一緒にどうですか？FoodTripが、手伝います！</p>
                         </header>
                         <div id="foodlist">
-                            {/* 포문같은거 */}
+                            {/* for문 닽은 것 */}
                             {
                                 foods.map(function (food, index) {
                                     return (
