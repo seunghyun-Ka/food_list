@@ -1,6 +1,7 @@
 import './index.css';
 import axios from "axios";
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function MainPage() {
     const [foods, setfoods] = React.useState([])
@@ -66,14 +67,14 @@ function MainPage() {
                             {
                                 foods.map(function (food, index) {
                                     return (
-                                        <a href="">
+                                        <Link className="foodpage_link" to={`/foodpage/${food.id}`} >
                                             <div className="food_card">
                                                 <h3 className="food_name_three">{food.name1}</h3>
                                                 <div className="food_top_name">{food.name2}</div>
                                                 <div className="food_description">{food.description}</div>
                                                 <img className="food_img" src={food.imageUrl} />
                                             </div>
-                                        </a>
+                                        </Link>
                                     )
                                 })
                             }
@@ -91,7 +92,7 @@ function MainPage() {
                     </div>
                 </footer>
             </div>
-        </div>);
+        </div >);
 
 }
 
