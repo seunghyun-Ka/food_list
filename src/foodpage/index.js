@@ -15,9 +15,8 @@ function FoodPage() {
             })
     }, [])
 
-    console.log(food)
 
-    return <h1>{id}번 째 서브 페이지</h1>
+    return (<h1>{id}번 째 서브 페이지</h1>)
 }
 
 
