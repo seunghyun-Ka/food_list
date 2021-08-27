@@ -7,7 +7,7 @@ function FoodPage() {
     const { id } = useParams();
     const [food, setFood] = useState(null);
     useEffect(function () {
-        axios.get(`https://f1553172-7a0c-447c-81d1-30bd9ef6cee1.mock.pstmn.io/foods/${id}`)
+        axios.get()
             .then((result) => {
                 setFood(result.data);
             }).catch((error) => {

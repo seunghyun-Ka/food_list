@@ -65,8 +65,8 @@
 .food_name_three{
   display: block;
   position: absolute;
-  bottom: 10%; 
-  right: 20%;
+  bottom: 25%; 
+  right: 30%;
   font-size: 50px;
   color: rgb(255, 255, 255);
 }
@@ -112,3 +112,10 @@
 /* #main .inner {
   padding: 0 2.5em;
 }  */
+
+#main .inner {
+  width: 100%;
+  max-width: 68em;
+  margin: 0 auto;
+  padding: 0 2.5em;
+}
